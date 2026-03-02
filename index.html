@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">&lt;<span>Dev</span> /&gt;</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="scanline"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Available for work</div>
+    <h1 class="hero-name">
+      I'm<br>
+      <span class="accent">Tanisha Valli Sheik</span><span class="accent2">.</span>
+    </h1>
+    <p class="hero-desc">
+       // Aspiring Frontend Developer passionate about building responsive and user-friendly web applications using HTML, CSS and JavaScript.<span class="cursor-blink">_</span>
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="fade-in">
+    <div class="section-label">01 — About</div>
+    <h2>Crafting code<br>with purpose.</h2>
+    <p>I am Tanisha Valli Sheik, currently pursuing B.Tech in Artificial Intelligence & Machine Learning at Aditya College of Engineering and Technology (2026).</p>
+    <p>I am highly interested in frontend development and enjoy creating responsive and interactive websites using HTML, CSS, JavaScript and Bootstrap. I have built projects including a To-Do List application and Personal Portfolio.</p>
+    <!-- <div class="about-stats">
+      <div class="stat-box">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Projects Shipped</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Technologies</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Bugs Squashed</div>
+      </div>
+    </div> -->
+  </div>
+  <div class="fade-in">
+    <div class="terminal-card">
+      <div class="terminal-bar">
+        <div class="dot r"></div>
+        <div class="dot y"></div>
+        <div class="dot g"></div>
+      </div>
+      <div class="terminal-line"><span class="comment">// whoami.json</span></div>
+      <div class="terminal-line"><span class="cmd">name</span>: <span class="val">"Tanisha Valli Sheik"</span></div>
+      <div class="terminal-line"><span class="cmd">role</span>: <span class="val">"Frontend Developer (Fresher)"</span></div>
+      <div class="terminal-line"><span class="cmd">location</span>: <span class="val">"Andhra Pradesh, India"</span></div>
+      <div class="terminal-line"><span class="cmd">stack</span>: <span class="val">["HTML", "CSS", "JavaScript","Bootstrap","Python (Basics)"]</span></div>
+      <div class="terminal-line"><span class="cmd">status</span>: <span class="val">"Open to opportunities"</span></div>
+      <div class="terminal-line"><span class="cmd">coffee</span>: <span class="val">true</span></div>
+      <div class="terminal-line"><span class="cmd">tabs</span>: <span class="val">2</span> <span class="comment">// obviously</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-header fade-in">
+    <div class="section-label">02 — Projects</div>
+    <h2>Things I've built.</h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card fade-in">
+      <div class="project-glow"></div>
+      <div class="project-num">PROJECT_01</div>
+      <div class="project-title">To-Do List Web App</div>
+      <p class="project-desc">A task management web application that allows users to add, delete and mark tasks as completed. Tasks are stored using browser LocalStorage so data remains after refresh.</p>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JAVASCRIPT</span>
+        <span class="tag">DOM (DOCUMENT OBJECT MODEL)</span>
+        <span class="tag">Local Storage</span>
+      </div>
+      <div class="project-links">
+        <a href="https://tanishavallisheik.github.io/To_Do_list.github.io/" class="project-link">↗ Live</a>
+        <a href="https://github.com/TanishaValliSheik/To_Do_list.github.io" class="project-link">↗ GitHub</a>
+      </div>
+    </div>
+    <div class="project-card fade-in">
+      <div class="project-glow"></div>
+      <div class="project-num">PROJECT_02</div>
+      <div class="project-title">Personal Portfolio</div>
+      <p class="project-desc">Developed a responsive personal portfolio website to showcase my skills, projects, and contact information. Implemented smooth scrolling navigation and modern UI design and deployed using GitHub Pages.</p>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Github</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">↗ Live</a>
+        <a href="https://github.com/TanishaValliSheik/Personal_portfolio.github.io.git" class="project-link">↗ GitHub</a>
+      </div>
+    </div>
+    <!-- <div class="project-card fade-in">
+      <div class="project-glow"></div>
+      <div class="project-num">PROJECT_03</div>
+      <div class="project-title">Project Gamma</div>
+      <p class="project-desc">An AI-powered code review assistant that integrates with GitHub PRs and provides context-aware suggestions.</p>
+      <div class="project-tags">
+        <span class="tag">TypeScript</span>
+        <span class="tag">OpenAI</span>
+        <span class="tag">GraphQL</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">↗ Live</a>
+        <a href="#" class="project-link">↗ GitHub</a>
+      </div>
+    </div>
+  </div> -->
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="fade-in">
+    <div class="section-label">03 — Skills</div>
+    <h2>What I work with.</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-group fade-in">
+      <div class="skill-group-title">Frontend</div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">HTML</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">CSS / Bootstrap</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="90"></div></div>
+      </div>
+    </div>
+    <!-- <div class="skill-group fade-in">
+      <div class="skill-group-title">Backend</div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">Node.js / Express</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">Python / FastAPI</span><span class="skill-pct">82%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">PostgreSQL / Redis</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="78"></div></div>
+      </div>
+    </div> -->
+    <div class="skill-group fade-in">
+      <div class="skill-group-title">DevOps & Tools</div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">Git Hub</span><span class="skill-pct">75%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="75"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">Git</span><span class="skill-pct">70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="70"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name-row"><span class="skill-name">VS CODE</span><span class="skill-pct">92%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-pct="92"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label" style="justify-content:center">04 — Contact</div>
+    <h2>Let's build something.</h2>
+    <p>Have a project in mind or just want to chat? My inbox is always open.</p>
+    <div class="contact-form fade-in">
+      <div class="form-row">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="your@email.com">
+      </div>
+      <input type="text" placeholder="Subject">
+      <textarea placeholder="Type your Message..."></textarea>
+      <button class="btn" style="justify-self:start">Send Message</button>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:tanishavallisheik2116@gmail.com" class="contact-link">✉ Email</a>
+      <a href="https://github.com/TanishaValliSheik" class="contact-link">⌥ GitHub</a>
+      <a href="https://www.linkedin.com/in/tanisha-valli-61bb43254" class="contact-link">⊞ LinkedIn</a>
+      <a href="#" class="contact-link">↓ Resume</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Tanisha Valli Sheik. All rights reserved.</p>
+  <p>Designed & built with ❤ and caffeine.</p>
+</footer>
+
+
+<script>
+  // Custom cursor
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursor-ring');
+  let mx = 0, my = 0;
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.left = mx + 'px';
+    cursor.style.top = my + 'px';
+    ring.style.left = mx + 'px';
+    ring.style.top = my + 'px';
+  });
+
+  // Fade-in on scroll
+  const faders = document.querySelectorAll('.fade-in');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), 80);
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  faders.forEach(f => obs.observe(f));
+
+  // Skill bars
+  const skillObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('.skill-fill').forEach(bar => {
+          bar.style.width = bar.dataset.pct + '%';
+        });
+        skillObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll('.skill-group').forEach(g => skillObs.observe(g));
+
+  // Nav active link highlight
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('nav a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 200) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--accent)' : '';
+    });
+  });
+</script>
+</body>
+</html>
